@@ -47,6 +47,10 @@ Establishment-level EAM microdata are restricted. The constructed panel (`Output
 
 Ordoñez-Claros, J. M., & Vidal-Pinilla, G. J. (2026). Impact of the Pumarejo Bridge on transport costs in the manufacturing industry of the Colombian Caribbean. *Estudios de Economía*, forthcoming.
 
+## License
+
+Code is released under the MIT License (see `LICENSE`). The article in `Paper/` is licensed separately under CC BY-NC-SA 4.0 by *Estudios de Economía*.
+
 ## Author
 
 Jose Manuel Ordoñez Claros —
