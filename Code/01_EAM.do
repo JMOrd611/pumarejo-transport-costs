@@ -785,31 +785,6 @@ drop if ExpInd > 1
 gen ImpInd = MatImp/Mat	
 drop if ImpInd > 1	
 
-gen Dist = 0
-replace Dist = 745 if dpto == 5
-replace Dist = 12 if dpto == 8
-replace Dist = 1008 if dpto == 11
-replace Dist = 141 if dpto == 13
-replace Dist = 852 if dpto == 15
-replace Dist = 964 if dpto == 17
-replace Dist = 1350 if dpto == 19
-replace Dist = 292 if dpto == 20
-replace Dist = 352 if dpto == 23
-replace Dist = 933 if dpto == 25
-replace Dist = 1159 if dpto == 41
-replace Dist = 95 if dpto == 47
-replace Dist = 1107 if dpto == 50
-replace Dist = 1596 if dpto == 52
-replace Dist = 666 if dpto == 54
-replace Dist = 1026 if dpto == 63
-replace Dist = 981 if dpto == 66
-replace Dist = 576 if dpto == 68
-replace Dist = 230 if dpto == 70
-replace Dist = 998 if dpto == 73
-replace Dist = 1178 if dpto == 76
-replace Dist = 1051 if dpto == 85
-replace Dist = 1951 if dpto == 99
-
 gen TP = Trans/Prod
 drop if TP == 0
 gen ltp = log(TP)
