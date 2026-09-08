@@ -28,7 +28,7 @@ Establishment-level EAM microdata are restricted. The constructed panel (`Output
 
 ## Repository structure
 
-- `Code/EAM.do` — builds the 2012-2023 establishment panel and the analysis variables; produces `Output/Data.dta` and generates the difference-in-differences estimates, balance and robustness checks; produces the tables in `Output/`.
+- `Code/01_EAM.do` — builds the 2012-2023 establishment panel and the analysis variables; produces `Output/Data.dta` and generates the difference-in-differences estimates, balance and robustness checks; produces the tables in `Output/`.
 - `Data/` — input microdata (not versioned)
 - `Temp/` — annual intermediate files (not versioned; created automatically)
 - `Output/` — constructed panel and result tables
