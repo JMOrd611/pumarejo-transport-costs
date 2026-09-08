@@ -41,7 +41,7 @@ Establishment-level EAM microdata are restricted. The constructed panel (`Output
 ## Requirements
 
 - Stata 17 or later
-- Packages: `reghdfe`, `estout`, `ebalance`
+- Packages: `reghdfe`, `estout`, `ebalance`, `prodest`.
 
 ## Citation
 
